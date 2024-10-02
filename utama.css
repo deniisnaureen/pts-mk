@@ -1,0 +1,131 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Utama container */
+  .utama {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Elemen header Beaulivre */
+  .hai-ini-beaulivre {
+    font-size: 3vw; /* Responsif dengan vw */
+    font-family: 'Jura', sans-serif;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Container text deskripsi */
+  .anda-dapat-mencari-container1 {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .anda-dapat-mencari1 {
+    font-size: 1.5vw; /* Responsif dengan vw */
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Gambar buku */
+  .buku-di-utama1 {
+    width: 30vw; /* Responsif dengan vw */
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  /* Logo dan judul Beaulivre di footer */
+  .beaulivre-parent3, .vector-container {
+    text-align: center;
+  }
+  
+  .beaulivre11, .beaulivre12 {
+    font-size: 2.5vw; /* Responsif dengan vw */
+    color: #444;
+  }
+  
+  /* Footer */
+  .vector-container {
+    background-color: #ececec;
+    padding: 20px;
+  }
+  
+  .copyright-2024-designed5 {
+    margin-top: 10px;
+    font-size: 1vw; /* Responsif dengan vw */
+    color: #888;
+  }
+  
+  .website-ini-merupakan5 {
+    font-size: 1.2vw; /* Responsif dengan vw */
+    color: #666;
+  }
+  
+  /* Button "Masuk" */
+  .masuk1 {
+    font-size: 2vw;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .masuk1:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .utama {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .hai-ini-beaulivre {
+      font-size: 5vw;
+    }
+  
+    .anda-dapat-mencari1 {
+      font-size: 3vw;
+    }
+  
+    .buku-di-utama1 {
+      width: 80%;
+    }
+  
+    .beaulivre11, .beaulivre12 {
+      font-size: 4vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hai-ini-beaulivre {
+      font-size: 6vw;
+    }
+  
+    .anda-dapat-mencari1 {
+      font-size: 4vw;
+    }
+  
+    .buku-di-utama1 {
+      width: 100%;
+    }
+  
+    .beaulivre11, .beaulivre12 {
+      font-size: 5vw;
+    }
+  }
+  
